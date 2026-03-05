@@ -1,6 +1,13 @@
 ﻿int numero = 1;
 do
 {
-    Console.WriteLine(numero);
-    numero++;
-} while (numero <= 5);
+if (numero % 2== 0)
+    {
+        Console.WriteLine("Número par: "+ numero);
+    }
+else
+    {
+        Console.WriteLine("Número impar: "+ numero);
+    }
+        numero++;
+} while (numero <= 20);
