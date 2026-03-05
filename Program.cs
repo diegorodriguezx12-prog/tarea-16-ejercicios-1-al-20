@@ -1,6 +1,6 @@
 ﻿int numero = 1;
 do
 {
-    Console.WriteLine(numero);
+    Console.WriteLine(numero +" * 5 = "+ (numero*5));
     numero++;
-} while (numero <= 5);
+} while (numero <= 10);
