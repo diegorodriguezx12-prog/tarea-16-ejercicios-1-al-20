@@ -3,4 +3,4 @@ do
 {
     Console.WriteLine(numero);
     numero++;
-} while (numero <= 5);
+} while (numero <= 10);
