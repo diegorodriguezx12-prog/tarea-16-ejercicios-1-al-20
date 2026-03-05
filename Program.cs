@@ -1,6 +1,8 @@
 ﻿int numero = 1;
+int cuadrado;
 do
 {
-    Console.WriteLine(numero);
+    cuadrado = numero * numero;
+    Console.WriteLine($"{numero}=="+cuadrado);
     numero++;
-} while (numero <= 5);
+} while (numero <= 10);
