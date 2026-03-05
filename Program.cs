@@ -2,5 +2,5 @@
 do
 {
     Console.WriteLine(numero);
-    numero++;
-} while (numero <= 5);
+    numero+=2;
+} while (numero <= 15);
