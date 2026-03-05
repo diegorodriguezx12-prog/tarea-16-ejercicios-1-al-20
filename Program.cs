@@ -1,6 +1,8 @@
 ﻿int numero = 1;
+int suma = 0;
 do
 {
-    Console.WriteLine(numero);
+    suma = suma + numero;
+    Console.WriteLine(suma);
     numero++;
-} while (numero <= 5);
+} while (numero <= 10);
