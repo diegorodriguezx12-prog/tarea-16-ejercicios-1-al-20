@@ -1,6 +1,6 @@
-﻿int numero = 1;
+﻿int numero = 2;
 do
 {
     Console.WriteLine(numero);
-    numero++;
-} while (numero <= 5);
+    numero+=2;
+} while (numero <= 20);
