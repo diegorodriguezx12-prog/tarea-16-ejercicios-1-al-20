@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int numero = 1;
+do
+{
+    Console.WriteLine(numero);
+    numero++;
+} while (numero <= 5);
