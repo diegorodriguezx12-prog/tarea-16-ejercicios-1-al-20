@@ -1,6 +1,10 @@
-﻿int numero = 1;
+﻿int numero;
+int subtotal = 0;
+
 do
 {
-    Console.WriteLine(numero);
-    numero++;
-} while (numero <= 5);
+    Console.WriteLine("ingrese un número (Ingrese 0 para terminar)");
+    numero = int.Parse(Console.ReadLine());
+    subtotal=subtotal + numero;
+} while (numero != 0);
+Console.WriteLine("La suma total es de: " + subtotal);
