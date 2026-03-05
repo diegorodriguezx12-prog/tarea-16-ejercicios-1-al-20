@@ -1,6 +1,13 @@
-﻿int numero = 1;
+﻿int numero;
+int cantidadnumeros = 0;
+
 do
 {
-    Console.WriteLine(numero);
-    numero++;
-} while (numero <= 5);
+    Console.WriteLine("ingrese un número (Ingrese 0 para salir)");
+    numero = int.Parse(Console.ReadLine());
+    if (numero !=0)
+    {
+        cantidadnumeros++;
+    }
+} while (numero != 0);
+Console.WriteLine("Ingresaste un total de "+cantidadnumeros+ " números");
